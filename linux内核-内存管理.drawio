@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-29T09:42:36.618Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="SYk1H2sa-kWWc-or8IJH" version="13.10.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-03T15:34:26.881Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="7q6gaOw7Jt0mNPUbV9Fs" version="13.10.2" type="github">
   <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
-    <mxGraphModel dx="1645" dy="560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1575" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -427,6 +427,9 @@
         </mxCell>
         <mxCell id="Rebcwi_dOry91TNg2UOc-255" value="zone_page_state_snapshot" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="1090" y="178" width="220" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="Rebcwi_dOry91TNg2UOc-257" value="get_page_from_freelist" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;labelBackgroundColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2150" width="220" height="46" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
