@@ -1,9 +1,121 @@
-<mxfile host="app.diagrams.net" modified="2021-03-28T12:51:35.379Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="cGzRzrnH1T6IkAh-gE0r" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-28T13:27:46.432Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="5h7XlRV7NrtKEwUKmuA7" version="14.5.3" type="github">
   <diagram id="UP1-qwlF9aJPhvvTiWTV" name="Page-1">
-    <mxGraphModel dx="1127" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="810" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LnEWv4F4pNgl14aYY6Xp-1" target="LnEWv4F4pNgl14aYY6Xp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-1" value="WFRedisTask::start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LnEWv4F4pNgl14aYY6Xp-2" target="LnEWv4F4pNgl14aYY6Xp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-2" value="WFNetworkTask::start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="140" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-17" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LnEWv4F4pNgl14aYY6Xp-4" target="LnEWv4F4pNgl14aYY6Xp-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-19" value="first类是WFNetworkTask" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LnEWv4F4pNgl14aYY6Xp-17">
+          <mxGeometry x="0.1706" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-18" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LnEWv4F4pNgl14aYY6Xp-4" target="LnEWv4F4pNgl14aYY6Xp-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-20" value="first类是WFNetworkTask" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LnEWv4F4pNgl14aYY6Xp-18">
+          <mxGeometry x="-0.0121" y="-2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-4" value="Workflow::start_series_work(this, nullptr);&lt;br&gt;这里的this是WFNetworkTask类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="115" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-29" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LnEWv4F4pNgl14aYY6Xp-6" target="LnEWv4F4pNgl14aYY6Xp-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-6" value="WFNetworkTask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LnEWv4F4pNgl14aYY6Xp-7" target="LnEWv4F4pNgl14aYY6Xp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-7" value="CommRequest" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="110" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-13" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LnEWv4F4pNgl14aYY6Xp-9" target="LnEWv4F4pNgl14aYY6Xp-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-9" value="SubTask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="LnEWv4F4pNgl14aYY6Xp-10" target="LnEWv4F4pNgl14aYY6Xp-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-10" value="CommSession" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-16" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LnEWv4F4pNgl14aYY6Xp-14" target="LnEWv4F4pNgl14aYY6Xp-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-14" value="new SeriesWork(first, std::move(callback));" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="250" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-22" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LnEWv4F4pNgl14aYY6Xp-15" target="LnEWv4F4pNgl14aYY6Xp-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-15" value="first-&amp;gt;dispatch();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="250" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-21" value="CommRequest::dispatch()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="310" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-23" value="ComplexRedisTask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-26" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LnEWv4F4pNgl14aYY6Xp-24" target="LnEWv4F4pNgl14aYY6Xp-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-24" value="WFComplexClientTask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="290" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-28" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LnEWv4F4pNgl14aYY6Xp-27" target="LnEWv4F4pNgl14aYY6Xp-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-27" value="WFClientTask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="220" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-32" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LnEWv4F4pNgl14aYY6Xp-30" target="LnEWv4F4pNgl14aYY6Xp-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-30" value="WFTaskFactory::create_redis_task&lt;br&gt;返回的是WFRedisTask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="580" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-34" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LnEWv4F4pNgl14aYY6Xp-31" target="LnEWv4F4pNgl14aYY6Xp-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-31" value="new ComplexRedisTask(retry_max, std::move(callback));" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="580" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-36" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LnEWv4F4pNgl14aYY6Xp-33" target="LnEWv4F4pNgl14aYY6Xp-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-33" value="WFComplexClientTask(retry_max, std::move(callback))" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="580" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-38" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LnEWv4F4pNgl14aYY6Xp-35" target="LnEWv4F4pNgl14aYY6Xp-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-35" value="WFClientTask&amp;lt;REQ, RESP&amp;gt;(NULL, WFGlobal::get_scheduler(), std::move(cb))" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="580" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnEWv4F4pNgl14aYY6Xp-37" value="WFNetworkTask&amp;lt;REQ, RESP&amp;gt;(object, scheduler, std::move(cb))" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="580" width="220" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
