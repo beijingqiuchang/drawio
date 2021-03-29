@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T01:38:10.531Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="MdIQfRnAjbgFR2WFQVHP" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-29T02:10:30.439Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="h09igSVWlIhvbbq3oVVE" version="14.5.3" type="github">
   <diagram id="UP1-qwlF9aJPhvvTiWTV" name="Page-1">
     <mxGraphModel dx="1186" dy="1885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -199,6 +199,48 @@
         </mxCell>
         <mxCell id="nBKweqbWxlO77C3QkO8n-21" value="mpoller_add" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="762.5" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKweqbWxlO77C3QkO8n-31" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nBKweqbWxlO77C3QkO8n-26" target="nBKweqbWxlO77C3QkO8n-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKweqbWxlO77C3QkO8n-36" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nBKweqbWxlO77C3QkO8n-26" target="nBKweqbWxlO77C3QkO8n-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKweqbWxlO77C3QkO8n-26" value="Communicator::create_poller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="970" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKweqbWxlO77C3QkO8n-29" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nBKweqbWxlO77C3QkO8n-28" target="nBKweqbWxlO77C3QkO8n-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKweqbWxlO77C3QkO8n-28" value="&lt;span&gt;Communicator的poller创建&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKweqbWxlO77C3QkO8n-34" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nBKweqbWxlO77C3QkO8n-30" target="nBKweqbWxlO77C3QkO8n-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKweqbWxlO77C3QkO8n-40" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nBKweqbWxlO77C3QkO8n-30" target="nBKweqbWxlO77C3QkO8n-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKweqbWxlO77C3QkO8n-30" value="mpoller_create" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1050" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKweqbWxlO77C3QkO8n-32" value="__mpoller_create创建epoll，定时器添加到epoll中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1110" width="120" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKweqbWxlO77C3QkO8n-39" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nBKweqbWxlO77C3QkO8n-35" target="nBKweqbWxlO77C3QkO8n-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKweqbWxlO77C3QkO8n-35" value="mpoller_start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1045" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKweqbWxlO77C3QkO8n-42" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nBKweqbWxlO77C3QkO8n-38" target="nBKweqbWxlO77C3QkO8n-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKweqbWxlO77C3QkO8n-38" value="poller_start，创建线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1110" width="120" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="nBKweqbWxlO77C3QkO8n-41" value="__poller_thread_routine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="1180" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
