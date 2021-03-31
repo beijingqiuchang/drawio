@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-31T02:28:00.133Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="THOwgOATDh4Vb0dfwoEg" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-31T02:36:52.334Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="1NreLaE10Kg8WGApc2u0" version="14.5.3" type="github">
   <diagram id="UP1-qwlF9aJPhvvTiWTV" name="Page-1">
     <mxGraphModel dx="1359" dy="1908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -382,8 +382,31 @@
         <mxCell id="wNeEUmRTEDkOyi42G9w8-6" value="WFThreadTask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="1710" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="wNeEUmRTEDkOyi42G9w8-11" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wNeEUmRTEDkOyi42G9w8-8" target="wNeEUmRTEDkOyi42G9w8-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wNeEUmRTEDkOyi42G9w8-8" value="ExecRequest(ExecQueue *queue, Executor *executor)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="1810" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wNeEUmRTEDkOyi42G9w8-13" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wNeEUmRTEDkOyi42G9w8-10" target="wNeEUmRTEDkOyi42G9w8-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wNeEUmRTEDkOyi42G9w8-10" value="ExecRequest::dispatch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1900" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wNeEUmRTEDkOyi42G9w8-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wNeEUmRTEDkOyi42G9w8-12" target="wNeEUmRTEDkOyi42G9w8-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wNeEUmRTEDkOyi42G9w8-16" value="向队列中发送任务，任务就是消费指定的队列，然后执行任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wNeEUmRTEDkOyi42G9w8-15">
+          <mxGeometry x="-0.1707" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNeEUmRTEDkOyi42G9w8-12" value="Executor::request" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wNeEUmRTEDkOyi42G9w8-14" value="计算的线程池:&lt;br&gt;__thrdpool_routine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="2100" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
