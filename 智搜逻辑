@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-23T07:55:44.453Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 Edg/90.0.818.41" etag="b64leBaYTobB-a8HUsG_" version="14.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-23T07:57:40.504Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 Edg/90.0.818.41" etag="ZLH-y187_QtK5sAhn_LQ" version="14.6.3" type="github">
   <diagram id="4KYgcJnR_z8OFxASmKYh" name="Page-1">
     <mxGraphModel dx="1186" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,8 +73,14 @@
         <mxCell id="JNQgNI95svgDP767zJw5-20" value="QueryResponseHandler::handle_response&lt;br&gt;处理qs返回结果" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="540" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="JNQgNI95svgDP767zJw5-26" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JNQgNI95svgDP767zJw5-22" target="JNQgNI95svgDP767zJw5-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JNQgNI95svgDP767zJw5-22" value="ResponseHandler::svc()" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JNQgNI95svgDP767zJw5-25" value="RetrieverLogicHandler::handle_response&lt;br&gt;虚函数调用" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="760" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
