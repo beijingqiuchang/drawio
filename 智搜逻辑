@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-23T08:29:37.199Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 Edg/90.0.818.41" etag="274bXn8Zo6NzI3HhK0Le" version="14.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-24T06:47:33.072Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 Edg/90.0.818.41" etag="M7TLsvneBaCs_2en3cHT" version="14.6.3" type="github">
   <diagram id="4KYgcJnR_z8OFxASmKYh" name="Page-1">
-    <mxGraphModel dx="1186" dy="1758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2013" dy="1758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -110,8 +110,25 @@
         <mxCell id="JNQgNI95svgDP767zJw5-29" value="主bidding" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="-240" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="JNQgNI95svgDP767zJw5-40" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JNQgNI95svgDP767zJw5-32" target="JNQgNI95svgDP767zJw5-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNQgNI95svgDP767zJw5-41" value="任务扔到队列中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JNQgNI95svgDP767zJw5-40">
+          <mxGeometry x="-0.16" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="JNQgNI95svgDP767zJw5-32" value="IrRespReceiver::handle_response" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="-100" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JNQgNI95svgDP767zJw5-43" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="JNQgNI95svgDP767zJw5-39" target="JNQgNI95svgDP767zJw5-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JNQgNI95svgDP767zJw5-39" value="ADLogicWorker::handle_request" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-10" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JNQgNI95svgDP767zJw5-42" value="direct_deliver_logic_.process_proto(ad_req_-&amp;gt;ir_info_)&lt;br&gt;对智搜数据合法校验" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="100" width="320" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
