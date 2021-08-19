@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T08:13:34.287Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.73" etag="h55qHvsgTR5Y9p_5Ixi4" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-19T08:39:30.289Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.73" etag="0XIshHrtUtZIXllE_wQM" version="14.9.8" type="github">
   <diagram id="JBxp9RnyGE3lNKXbVNId" name="Page-1">
     <mxGraphModel dx="2013" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
       <root>
@@ -389,22 +389,49 @@
           <mxGeometry x="-555" y="780" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SsmB_mu_654-RHiv2SK2-15" value="SogouHaoAd::gen_url_and_pos&lt;br&gt;搜狗号处理逻辑" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
-          <mxGeometry x="-290" y="1130" width="220" height="60" as="geometry" />
+          <mxGeometry x="-145" y="1109" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SsmB_mu_654-RHiv2SK2-17" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" edge="1" parent="1" source="SsmB_mu_654-RHiv2SK2-16" target="SsmB_mu_654-RHiv2SK2-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SsmB_mu_654-RHiv2SK2-16" value="SogouHaoAd::OutputShowContent&lt;br&gt;搜狗号逻辑" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
-          <mxGeometry x="-290" y="1020" width="220" height="60" as="geometry" />
+          <mxGeometry x="-145" y="999" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SsmB_mu_654-RHiv2SK2-19" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" edge="1" parent="1" source="SsmB_mu_654-RHiv2SK2-18" target="SsmB_mu_654-RHiv2SK2-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SsmB_mu_654-RHiv2SK2-18" value="WebLogic::fill_ws_response_template&lt;br&gt;样式填充" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
-          <mxGeometry x="-325" y="910" width="290" height="60" as="geometry" />
+          <mxGeometry x="-180" y="889" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SsmB_mu_654-RHiv2SK2-21" value="direct_deliver_logic_.process_proto&lt;br&gt;处理直投逻辑&lt;br&gt;函数定义DirectDeliverLogic::process_proto" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
           <mxGeometry x="-740" y="940" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SsmB_mu_654-RHiv2SK2-25" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" edge="1" parent="1" source="SsmB_mu_654-RHiv2SK2-23" target="SsmB_mu_654-RHiv2SK2-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SsmB_mu_654-RHiv2SK2-29" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" edge="1" parent="1" source="SsmB_mu_654-RHiv2SK2-23" target="SsmB_mu_654-RHiv2SK2-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SsmB_mu_654-RHiv2SK2-32" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" edge="1" parent="1" source="SsmB_mu_654-RHiv2SK2-23" target="SsmB_mu_654-RHiv2SK2-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SsmB_mu_654-RHiv2SK2-23" value="DirectDeliverLogic::generate_adshow_data" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="1070" width="305" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SsmB_mu_654-RHiv2SK2-24" value="check_ad&lt;br&gt;检查是否有title\showurl\商品数等" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="1220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SsmB_mu_654-RHiv2SK2-28" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" edge="1" parent="1" source="SsmB_mu_654-RHiv2SK2-26" target="SsmB_mu_654-RHiv2SK2-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SsmB_mu_654-RHiv2SK2-26" value="DirectDeliverLogic::commodity_direct_is_could&lt;br&gt;判断智搜指定的样式是否可以展现" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="1220" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SsmB_mu_654-RHiv2SK2-27" value="product_is_online&lt;br&gt;通过SD报文，判断商品是否在线" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
+          <mxGeometry x="-685" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SsmB_mu_654-RHiv2SK2-30" value="show_material_hash_&lt;br&gt;把广告的show_info存到这个hash里&lt;br&gt;key:adid+style,value是DirectShowInfo" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="1220" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
