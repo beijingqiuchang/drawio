@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T08:57:19.046Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.73" etag="zmOi3ZHmUHwxYDZ3tNjR" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-19T09:04:28.292Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.73" etag="EOH0d7aCPzTqeyrQUIIn" version="14.9.8" type="github">
   <diagram id="JBxp9RnyGE3lNKXbVNId" name="Page-1">
     <mxGraphModel dx="2840" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
       <root>
@@ -395,15 +395,18 @@
           <mxGeometry x="-555" y="780" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SsmB_mu_654-RHiv2SK2-15" value="SogouHaoAd::gen_url_and_pos&lt;br&gt;搜狗号处理逻辑" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
-          <mxGeometry x="-145" y="1109" width="220" height="60" as="geometry" />
+          <mxGeometry x="-250" y="1090" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SsmB_mu_654-RHiv2SK2-17" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" edge="1" parent="1" source="SsmB_mu_654-RHiv2SK2-16" target="SsmB_mu_654-RHiv2SK2-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SsmB_mu_654-RHiv2SK2-16" value="SogouHaoAd::OutputShowContent&lt;br&gt;搜狗号逻辑" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
-          <mxGeometry x="-145" y="999" width="220" height="60" as="geometry" />
+          <mxGeometry x="-250" y="995" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SsmB_mu_654-RHiv2SK2-19" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" edge="1" parent="1" source="SsmB_mu_654-RHiv2SK2-18" target="SsmB_mu_654-RHiv2SK2-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SsmB_mu_654-RHiv2SK2-45" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" edge="1" parent="1" source="SsmB_mu_654-RHiv2SK2-18" target="SsmB_mu_654-RHiv2SK2-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SsmB_mu_654-RHiv2SK2-18" value="WebLogic::fill_ws_response_template&lt;br&gt;样式填充" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
@@ -462,6 +465,9 @@
         </mxCell>
         <mxCell id="SsmB_mu_654-RHiv2SK2-42" value="rerank_ori_advec_&lt;br&gt;把推词放到这个vec中&lt;br&gt;在不同的fill中，走不同的rerank" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
           <mxGeometry x="-1425" y="1350" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SsmB_mu_654-RHiv2SK2-44" value="WebLogic::SetDownRecomHead&lt;br&gt;处理智搜的下方推荐词" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
+          <mxGeometry x="10" y="999" width="214" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
