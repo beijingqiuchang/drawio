@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T09:11:52.880Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.73" etag="HzMWXahNlosKWaw_L5Mp" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-19T09:15:52.561Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.73" etag="cCgwigls7527sPRL1n1S" version="14.9.8" type="github">
   <diagram id="JBxp9RnyGE3lNKXbVNId" name="Page-1">
     <mxGraphModel dx="2840" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
       <root>
@@ -478,8 +478,14 @@
         <mxCell id="SsmB_mu_654-RHiv2SK2-50" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" edge="1" parent="1" source="SsmB_mu_654-RHiv2SK2-48" target="SsmB_mu_654-RHiv2SK2-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="SsmB_mu_654-RHiv2SK2-52" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" edge="1" parent="1" source="SsmB_mu_654-RHiv2SK2-48" target="SsmB_mu_654-RHiv2SK2-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SsmB_mu_654-RHiv2SK2-48" value="直投相关逻辑" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
           <mxGeometry x="-565" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SsmB_mu_654-RHiv2SK2-51" value="direct_deliver_logic_.set_adinfo&lt;br&gt;函数定义：DirectDeliverLogic::set_adinfo&lt;br&gt;内容：&lt;br&gt;遍历原词广告，判断是不是直投广告（通过show_material_hash_&lt;br&gt;）是否存在判断，如果有，就把desc，ac_show_url,title，价格等拷贝过去" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="1360" width="220" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
