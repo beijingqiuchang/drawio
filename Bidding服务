@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-19T09:52:10.431Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.73" etag="jAzsfLlTW5j0e3Vqy0Da" version="14.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-19T10:01:08.859Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 Edg/92.0.902.73" etag="JzX_KVX_GxobifTTRWRA" version="14.9.8" type="github">
   <diagram id="JBxp9RnyGE3lNKXbVNId" name="Page-1">
     <mxGraphModel dx="2840" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
       <root>
@@ -511,7 +511,7 @@
         <mxCell id="SsmB_mu_654-RHiv2SK2-58" value="filter_-&amp;gt;filter_ad&lt;br&gt;函数定义：&lt;br&gt;BiddingFilter::filter_ad" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
           <mxGeometry x="-235" y="1755" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SsmB_mu_654-RHiv2SK2-61" value="过滤列表：&lt;br&gt;BiddingFilter::BiddingFilter()会注册全部的&lt;br&gt;1. 区域过滤(CB)&lt;br&gt;2.账户加黑过滤(data/suspect_acc_file)&lt;br&gt;3.黄暴检查，通过CA报文找到行业，在判断&lt;br&gt;4.&amp;nbsp;pid_cat_filter_ad 地域的pid不能出&lt;br&gt;5.forbid_ip_filter_ad：客户对于一批ip地址过滤&lt;br&gt;6" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
+        <mxCell id="SsmB_mu_654-RHiv2SK2-61" value="过滤列表：&lt;br&gt;BiddingFilter::BiddingFilter()会注册全部的&lt;br&gt;1. 区域过滤(CB)&lt;br&gt;2.账户加黑过滤(data/suspect_acc_file)&lt;br&gt;3.黄暴检查，通过CA报文找到行业，在判断&lt;br&gt;4.&amp;nbsp;pid_cat_filter_ad 地域的pid不能出&lt;br&gt;5.forbid_ip_filter_ad：客户对于一批ip地址过滤&lt;br&gt;6.pid_acc_filter_ad:pid+accid过滤&lt;br&gt;7.filter_explore_acid:命中了名单，就看计划是否过滤&lt;br&gt;8." style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
           <mxGeometry x="-420" y="1870" width="400" height="360" as="geometry" />
         </mxCell>
       </root>
