@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-07T06:05:24.462Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.38" etag="13FmKZIThwuUJdA3l89j" version="15.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-08T01:45:26.845Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36 Edg/93.0.961.38" etag="qKDFAOgZRCRUIO9xhnKR" version="15.1.0" type="github">
   <diagram id="PrGpzekshYqfDAG1nMo7" name="Page-1">
-    <mxGraphModel dx="919" dy="999" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
+    <mxGraphModel dx="786" dy="1107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -62,82 +62,112 @@
         <mxCell id="VmTMgmtaiInJg_GWvJsv-6" value="&lt;font style=&quot;font-size: 14px&quot;&gt;GraphOptimizer::Optimize&lt;br&gt;每一个Optimizer都会实现Optimize函数。RunOptimizer会调用每个Optimzer的Optimize含糊&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;sketch=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="1460" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" edge="1" parent="1" source="7VLjD8cx6l6z5t2lMqxd-1">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-7" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;curved=1;" parent="1" source="7VLjD8cx6l6z5t2lMqxd-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1080" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-1" value="tf_serving启动流程" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;sketch=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-1" value="tf_serving启动流程" style="whiteSpace=wrap;html=1;fillColor=#F45B69;strokeColor=#028090;fontColor=#E4FDE1;sketch=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="480" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-3" value="main()" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;sketch=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-3" value="main()" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1081" y="560" width="369" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-4" value="+ file:tensorflow_serving/model_servers/main.cc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="7VLjD8cx6l6z5t2lMqxd-3">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-4" value="+ file:tensorflow_serving/model_servers/main.cc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;" parent="7VLjD8cx6l6z5t2lMqxd-3" vertex="1">
           <mxGeometry y="26" width="369" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="7VLjD8cx6l6z5t2lMqxd-3">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;" parent="7VLjD8cx6l6z5t2lMqxd-3" vertex="1">
           <mxGeometry y="52" width="369" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-6" value="+ 调用方法:const auto&amp; status = server.BuildAndStart(options)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7VLjD8cx6l6z5t2lMqxd-3">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-6" value="+ 调用方法:const auto&amp; status = server.BuildAndStart(options)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;rounded=1;" parent="7VLjD8cx6l6z5t2lMqxd-3" vertex="1">
           <mxGeometry y="60" width="369" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-8" value="Server::BuildAndStart" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;sketch=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-8" value="Server::BuildAndStart" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1490" y="539" width="330" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-9" value="+ file:tensorflow_serving/model_servers/server.cc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="7VLjD8cx6l6z5t2lMqxd-8">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-9" value="+ file:tensorflow_serving/model_servers/server.cc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;" parent="7VLjD8cx6l6z5t2lMqxd-8" vertex="1">
           <mxGeometry y="26" width="330" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="7VLjD8cx6l6z5t2lMqxd-8">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;" parent="7VLjD8cx6l6z5t2lMqxd-8" vertex="1">
           <mxGeometry y="52" width="330" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-11" value="+ 调用方法:ServerCore::Create 创建ServerCore&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7VLjD8cx6l6z5t2lMqxd-8">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-11" value="+ 调用方法:ServerCore::Create 创建ServerCore&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;rounded=1;" parent="7VLjD8cx6l6z5t2lMqxd-8" vertex="1">
           <mxGeometry y="60" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-13" value="+ 调用方法:::grpc::ServerBuilder builder; 创建grpc服务&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7VLjD8cx6l6z5t2lMqxd-8">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-13" value="+ 调用方法:::grpc::ServerBuilder builder; 创建grpc服务&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;rounded=1;" parent="7VLjD8cx6l6z5t2lMqxd-8" vertex="1">
           <mxGeometry y="90" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" edge="1" parent="1" source="7VLjD8cx6l6z5t2lMqxd-4" target="7VLjD8cx6l6z5t2lMqxd-8">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-12" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;curved=1;" parent="1" source="7VLjD8cx6l6z5t2lMqxd-4" target="7VLjD8cx6l6z5t2lMqxd-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-14" value="ServerCore::Create" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;sketch=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" vertex="1" parent="1">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-14" value="ServerCore::Create" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1890" y="539" width="360" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-15" value="+ file:tensorflow_serving/model_servers/server_core.cc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="7VLjD8cx6l6z5t2lMqxd-14">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-15" value="+ file:tensorflow_serving/model_servers/server_core.cc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;" parent="7VLjD8cx6l6z5t2lMqxd-14" vertex="1">
           <mxGeometry y="26" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="7VLjD8cx6l6z5t2lMqxd-14">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;" parent="7VLjD8cx6l6z5t2lMqxd-14" vertex="1">
           <mxGeometry y="52" width="360" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-17" value="+ 调用方法:ServerCore::Initialize 为Server::manager_ 赋值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7VLjD8cx6l6z5t2lMqxd-14">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-17" value="+ 调用方法:ServerCore::Initialize 为Server::manager_ 赋值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;rounded=1;" parent="7VLjD8cx6l6z5t2lMqxd-14" vertex="1">
           <mxGeometry y="60" width="360" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-18" value="+ 调用方法:ServerCore::ReloadConfig 加载模型&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7VLjD8cx6l6z5t2lMqxd-14">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-18" value="+ 调用方法:ServerCore::ReloadConfig 加载模型&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;rounded=1;" parent="7VLjD8cx6l6z5t2lMqxd-14" vertex="1">
           <mxGeometry y="90" width="360" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-20" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" edge="1" parent="1" source="7VLjD8cx6l6z5t2lMqxd-11" target="7VLjD8cx6l6z5t2lMqxd-14">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-20" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;curved=1;" parent="1" source="7VLjD8cx6l6z5t2lMqxd-11" target="7VLjD8cx6l6z5t2lMqxd-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-21" value="ServerCore::AddModelsViaModelConfigList" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;sketch=1;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;textDirection=ltr;" vertex="1" parent="1">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-21" value="ServerCore::AddModelsViaModelConfigList" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;textDirection=ltr;sketch=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="2020" y="730" width="390" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-22" value="+ file:tensorflow_serving/model_servers/server_core.cc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="7VLjD8cx6l6z5t2lMqxd-21">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-22" value="+ file:tensorflow_serving/model_servers/server_core.cc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;" parent="7VLjD8cx6l6z5t2lMqxd-21" vertex="1">
           <mxGeometry y="26" width="390" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="7VLjD8cx6l6z5t2lMqxd-21">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;" parent="7VLjD8cx6l6z5t2lMqxd-21" vertex="1">
           <mxGeometry y="52" width="390" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-24" value="+ 调用方法:CreateStoragePathRoutes(config_, &amp;routes) &#xa;遍历模型配置，存储到routes中" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7VLjD8cx6l6z5t2lMqxd-21">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-24" value="+ 调用方法:CreateStoragePathRoutes(config_, &amp;routes) &#xa;遍历模型配置，存储到routes中" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;rounded=1;" parent="7VLjD8cx6l6z5t2lMqxd-21" vertex="1">
           <mxGeometry y="60" width="390" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-25" value="+ 调用方法:CreateAdapters(&amp;adapters) 创建 adapter&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7VLjD8cx6l6z5t2lMqxd-21">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-25" value="+ 调用方法:CreateAdapters(&amp;adapters) 创建 adapter&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;rounded=1;" parent="7VLjD8cx6l6z5t2lMqxd-21" vertex="1">
           <mxGeometry y="100" width="390" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-29" value="+ 调用方法:CreateStoragePathSource 创建 source&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="7VLjD8cx6l6z5t2lMqxd-21">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-29" value="+ 调用方法:CreateStoragePathSource 创建 source&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;rounded=1;" parent="7VLjD8cx6l6z5t2lMqxd-21" vertex="1">
           <mxGeometry y="130" width="390" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7VLjD8cx6l6z5t2lMqxd-28" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;" edge="1" parent="1" source="7VLjD8cx6l6z5t2lMqxd-18" target="7VLjD8cx6l6z5t2lMqxd-21">
+        <mxCell id="7VLjD8cx6l6z5t2lMqxd-28" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;curved=1;" parent="1" source="7VLjD8cx6l6z5t2lMqxd-18" target="7VLjD8cx6l6z5t2lMqxd-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_vCM-VOk54q9y3RU52Ia-1" value="ServerCore::CreateStoragePathRoutes" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2481" y="640" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_vCM-VOk54q9y3RU52Ia-2" value="+ file:tensorflow_serving/model_servers/server_core.cc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;" vertex="1" parent="_vCM-VOk54q9y3RU52Ia-1">
+          <mxGeometry y="26" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_vCM-VOk54q9y3RU52Ia-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;" vertex="1" parent="_vCM-VOk54q9y3RU52Ia-1">
+          <mxGeometry y="52" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_vCM-VOk54q9y3RU52Ia-4" value="遍历模型文件，每个模型的平台是什么，存储到route中" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;rounded=1;" vertex="1" parent="_vCM-VOk54q9y3RU52Ia-1">
+          <mxGeometry y="60" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_vCM-VOk54q9y3RU52Ia-6" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;sketch=1;curved=1;" edge="1" parent="1" source="7VLjD8cx6l6z5t2lMqxd-24" target="_vCM-VOk54q9y3RU52Ia-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_vCM-VOk54q9y3RU52Ia-7" value="ServerCore::CreateAdapters" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2481" y="780" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_vCM-VOk54q9y3RU52Ia-8" value="+ file:tensorflow_serving/model_servers/server_core.cc" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;" vertex="1" parent="_vCM-VOk54q9y3RU52Ia-7">
+          <mxGeometry y="26" width="360" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_vCM-VOk54q9y3RU52Ia-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;" vertex="1" parent="_vCM-VOk54q9y3RU52Ia-7">
+          <mxGeometry y="52" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_vCM-VOk54q9y3RU52Ia-11" value="为每一个支持的平台，创建一个adapter" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;rounded=1;" vertex="1" parent="_vCM-VOk54q9y3RU52Ia-7">
+          <mxGeometry y="60" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_vCM-VOk54q9y3RU52Ia-10" value="+ 调用函数：ServerCore::CreateAdapter" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;sketch=1;rounded=1;" vertex="1" parent="_vCM-VOk54q9y3RU52Ia-7">
+          <mxGeometry y="90" width="360" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
