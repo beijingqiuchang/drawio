@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-21T07:30:39.326Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="rv96a4woY8eJI4oCts5o" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-21T07:31:30.232Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="TbM9v9ipk9v1NZG_oIlF" version="15.2.9" type="github">
   <diagram id="PrGpzekshYqfDAG1nMo7" name="Page-1">
     <mxGraphModel dx="1426" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
       <root>
@@ -530,7 +530,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cN6cCzqRIcExapVpUmXs-30" value="BasicManager::LoadServable" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;arcSize=32;sketch=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="4750" y="1700" width="280" height="60" as="geometry" />
+          <mxGeometry x="4750" y="1710" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cN6cCzqRIcExapVpUmXs-31" value="向 bus 中 推入时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;" parent="cN6cCzqRIcExapVpUmXs-30" vertex="1">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
@@ -544,7 +544,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cN6cCzqRIcExapVpUmXs-34" value="BasicManager::UnloadServable" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;arcSize=32;sketch=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="4409" y="1694" width="280" height="60" as="geometry" />
+          <mxGeometry x="4409" y="1710" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cN6cCzqRIcExapVpUmXs-35" value="向 bus 中 推入时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;" parent="cN6cCzqRIcExapVpUmXs-34" vertex="1">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
@@ -559,13 +559,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cN6cCzqRIcExapVpUmXs-38" value="AspiredVersionsManager::PerformAction" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;arcSize=32;sketch=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="4580" y="1580" width="280" height="60" as="geometry" />
+          <mxGeometry x="4580" y="1580" width="280" height="88" as="geometry" />
         </mxCell>
-        <mxCell id="cN6cCzqRIcExapVpUmXs-39" value="向 bus 中 推入时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;" parent="cN6cCzqRIcExapVpUmXs-38" vertex="1">
-          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        <mxCell id="cN6cCzqRIcExapVpUmXs-39" value="执行传进来的action&#xa;1. load action&#xa;2. unload action" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;" parent="cN6cCzqRIcExapVpUmXs-38" vertex="1">
+          <mxGeometry y="26" width="280" height="54" as="geometry" />
         </mxCell>
         <mxCell id="cN6cCzqRIcExapVpUmXs-40" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;" parent="cN6cCzqRIcExapVpUmXs-38" vertex="1">
-          <mxGeometry y="52" width="280" height="8" as="geometry" />
+          <mxGeometry y="80" width="280" height="8" as="geometry" />
         </mxCell>
         <mxCell id="cN6cCzqRIcExapVpUmXs-42" value="AspiredVersionsManager::InvokePolicyAndExecuteAction" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;arcSize=32;sketch=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="4339" y="1490" width="350" height="60" as="geometry" />
