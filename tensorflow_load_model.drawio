@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-23T05:48:31.256Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="6YkGTt_3niI5_sXGOAXs" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-23T05:48:51.870Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36 Edg/93.0.961.52" etag="D4m_ayK6B8-JQ0hzQl2z" version="15.2.9" type="github">
   <diagram id="PrGpzekshYqfDAG1nMo7" name="Page-1">
     <mxGraphModel dx="989" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
       <root>
@@ -681,6 +681,15 @@
         </mxCell>
         <mxCell id="M91a8OYIPQkDmNJu2EPY-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M91a8OYIPQkDmNJu2EPY-1" target="M91a8OYIPQkDmNJu2EPY-6">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M91a8OYIPQkDmNJu2EPY-15" value="BasicManager::ExecuteLoadOrUnload" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;arcSize=32;sketch=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="4990" y="2120" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M91a8OYIPQkDmNJu2EPY-16" value="验证资源是否充足" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;" vertex="1" parent="M91a8OYIPQkDmNJu2EPY-15">
+          <mxGeometry y="26" width="280" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M91a8OYIPQkDmNJu2EPY-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;" vertex="1" parent="M91a8OYIPQkDmNJu2EPY-15">
+          <mxGeometry y="52" width="280" height="8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
