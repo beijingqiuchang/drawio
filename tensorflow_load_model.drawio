@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-26T12:50:52.936Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31" etag="9jUiFpECf0J3aBppR4mE" version="15.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-26T12:51:53.317Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31" etag="lXOTCrJJ2zlrfcW0sDx8" version="15.3.3" type="github">
   <diagram id="PrGpzekshYqfDAG1nMo7" name="Page-1">
-    <mxGraphModel dx="2066" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
+    <mxGraphModel dx="2951" dy="1649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -340,7 +340,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YM_fozctcXcM76W-yuVN-7" value="ConnectSourceToTarget" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="2880" y="1120" width="400" height="128" as="geometry" />
+          <mxGeometry x="2890" y="1110" width="400" height="128" as="geometry" />
         </mxCell>
         <mxCell id="YM_fozctcXcM76W-yuVN-8" value="给SourceAdapter设置的回调其实就是：&#xa;AspiredVersionsManagerTargetImpl::SetAspiredVersions&#xa;但是最终回调的是:&#xa;AspiredVersionsManager::EnqueueAspiredVersionsRequest" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;rounded=1;sketch=1;" parent="YM_fozctcXcM76W-yuVN-7" vertex="1">
           <mxGeometry y="26" width="400" height="94" as="geometry" />
@@ -352,7 +352,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XMyBXwcXnTtEF9S07rA3-1" value="ServableStateMonitor::WaitUntilServablesReachState" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="2880" y="1270" width="360" height="128" as="geometry" />
+          <mxGeometry x="2870" y="1270" width="360" height="128" as="geometry" />
         </mxCell>
         <mxCell id="XMyBXwcXnTtEF9S07rA3-2" value="等待全部的模型加载完成&#xa;这里会通过notified.WaitForNotification()直接死等。&#xa;1. 调用 NotifyWhenServablesReachState 传入一个回调函数，&#xa;触发死等的 notified &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;rounded=1;sketch=1;" parent="XMyBXwcXnTtEF9S07rA3-1" vertex="1">
           <mxGeometry y="26" width="360" height="94" as="geometry" />
@@ -598,7 +598,7 @@
         <mxCell id="cN6cCzqRIcExapVpUmXs-46" value="AspiredVersionsManager" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;arcSize=32;rounded=1;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="3960" y="1420" width="350" height="118" as="geometry" />
         </mxCell>
-        <mxCell id="cN6cCzqRIcExapVpUmXs-47" value="创建像是，构造函数会创建定时任务&#xa;创建的定时任务： InvokePolicyAndExecuteAction &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;rounded=1;sketch=1;" parent="cN6cCzqRIcExapVpUmXs-46" vertex="1">
+        <mxCell id="cN6cCzqRIcExapVpUmXs-47" value="创建对象时，构造函数会创建定时任务&#xa;创建的定时任务： InvokePolicyAndExecuteAction &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;rounded=1;sketch=1;" parent="cN6cCzqRIcExapVpUmXs-46" vertex="1">
           <mxGeometry y="26" width="350" height="84" as="geometry" />
         </mxCell>
         <mxCell id="cN6cCzqRIcExapVpUmXs-48" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;sketch=1;" parent="cN6cCzqRIcExapVpUmXs-46" vertex="1">
