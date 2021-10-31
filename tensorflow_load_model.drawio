@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-31T06:17:40.981Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="8t-knrf_JYIz9l6208w4" version="15.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-31T06:18:16.013Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="yqlj_uEWsleczlk427cC" version="15.6.2" type="github">
   <diagram id="PrGpzekshYqfDAG1nMo7" name="Page-1">
     <mxGraphModel dx="1426" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
       <root>
@@ -716,8 +716,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="5420" y="1390" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="6180" y="2170" />
-              <mxPoint x="6180" y="1090" />
+              <mxPoint x="5840" y="2170" />
+              <mxPoint x="5840" y="1090" />
               <mxPoint x="4900" y="1090" />
             </Array>
           </mxGeometry>
@@ -869,7 +869,7 @@
         <mxCell id="WWkitol8T_VMmDMeP23o-4" value="ReadMetaGraphDefFromSavedModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="6250" y="1350" width="240" height="108" as="geometry" />
         </mxCell>
-        <mxCell id="WWkitol8T_VMmDMeP23o-5" value="1. 加载saved_model.pb&#xa;2. 通过传入的tags，找到pb中，标记&#xa;tags的meta_graph" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;" parent="WWkitol8T_VMmDMeP23o-4" vertex="1">
+        <mxCell id="WWkitol8T_VMmDMeP23o-5" value="1. 加载saved_model.pb&#xa;2. 通过传入的tags，找到pb中，标记&#xa;tags的meta_graph，复制给&#xa;bundle-&gt;meta_graph_def" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;" parent="WWkitol8T_VMmDMeP23o-4" vertex="1">
           <mxGeometry y="26" width="240" height="74" as="geometry" />
         </mxCell>
         <mxCell id="WWkitol8T_VMmDMeP23o-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;" parent="WWkitol8T_VMmDMeP23o-4" vertex="1">
