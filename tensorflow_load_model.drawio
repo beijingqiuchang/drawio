@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-02T05:49:57.043Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="O6flxgTmfmtfqov7qB7W" version="15.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-02T06:12:18.184Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="DwFqWlHyBBvIEibYUn0d" version="15.6.5" type="github">
   <diagram id="PrGpzekshYqfDAG1nMo7" name="Page-1">
-    <mxGraphModel dx="1222" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
+    <mxGraphModel dx="1030" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -997,6 +997,9 @@
         <mxCell id="kYu4wOYdxdhjozoKLrlo-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;" parent="kYu4wOYdxdhjozoKLrlo-27" vertex="1">
           <mxGeometry y="80" width="460" height="8" as="geometry" />
         </mxCell>
+        <mxCell id="CXKlSldvwfNOLZ_53rpo-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;fontColor=default;" edge="1" parent="1" source="CXKlSldvwfNOLZ_53rpo-1" target="CXKlSldvwfNOLZ_53rpo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CXKlSldvwfNOLZ_53rpo-1" value="GraphExecutionState::MakeForBaseGraph" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="7390" y="1721.94" width="260" height="88" as="geometry" />
         </mxCell>
@@ -1005,6 +1008,15 @@
         </mxCell>
         <mxCell id="CXKlSldvwfNOLZ_53rpo-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;" vertex="1" parent="CXKlSldvwfNOLZ_53rpo-1">
           <mxGeometry y="80" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="CXKlSldvwfNOLZ_53rpo-5" value="AddDefaultAttrsToGraphDef" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="7230" y="1869.94" width="320" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="CXKlSldvwfNOLZ_53rpo-6" value="1. 遍历graph下每一node对应的op&#xa;2. 再去FunctionLibraryDefinition这个函数登记好&#xa;的里面，找到这个op。&#xa;3. 查看这个op是否有默认值&#xa;4. 如果有，就添加会到node里" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;" vertex="1" parent="CXKlSldvwfNOLZ_53rpo-5">
+          <mxGeometry y="26" width="320" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="CXKlSldvwfNOLZ_53rpo-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;" vertex="1" parent="CXKlSldvwfNOLZ_53rpo-5">
+          <mxGeometry y="140" width="320" height="8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
