@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T08:01:39.243Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="EwTHm-dgGORHb4zXbJ4k" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-18T11:39:29.806Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.53" etag="V8KyvgynOjn5BXE3MQCQ" version="15.7.3" type="github">
   <diagram id="PrGpzekshYqfDAG1nMo7" name="Page-1">
-    <mxGraphModel dx="1055" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1045,13 +1045,13 @@
         <mxCell id="Bc9hVS4vmQlfiI604H2O-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;" parent="Bc9hVS4vmQlfiI604H2O-4" vertex="1">
           <mxGeometry y="140" width="320" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="avZbhJU5zutssaT_74Di-7" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;curved=1;" edge="1" parent="1" source="Bc9hVS4vmQlfiI604H2O-9" target="avZbhJU5zutssaT_74Di-4">
+        <mxCell id="avZbhJU5zutssaT_74Di-7" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;curved=1;" parent="1" source="Bc9hVS4vmQlfiI604H2O-9" target="avZbhJU5zutssaT_74Di-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="avZbhJU5zutssaT_74Di-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Bc9hVS4vmQlfiI604H2O-9" target="avZbhJU5zutssaT_74Di-1">
+        <mxCell id="avZbhJU5zutssaT_74Di-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Bc9hVS4vmQlfiI604H2O-9" target="avZbhJU5zutssaT_74Di-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="avZbhJU5zutssaT_74Di-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Bc9hVS4vmQlfiI604H2O-9" target="avZbhJU5zutssaT_74Di-9">
+        <mxCell id="avZbhJU5zutssaT_74Di-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Bc9hVS4vmQlfiI604H2O-9" target="avZbhJU5zutssaT_74Di-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Bc9hVS4vmQlfiI604H2O-9" value="TryImport" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" parent="1" vertex="1">
@@ -1063,31 +1063,31 @@
         <mxCell id="Bc9hVS4vmQlfiI604H2O-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;" parent="Bc9hVS4vmQlfiI604H2O-9" vertex="1">
           <mxGeometry y="140" width="320" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="avZbhJU5zutssaT_74Di-1" value="GraphConstructor::BuildNodeIndex" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="avZbhJU5zutssaT_74Di-1" value="GraphConstructor::BuildNodeIndex" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="7160" y="2390" width="320" height="148" as="geometry" />
         </mxCell>
-        <mxCell id="avZbhJU5zutssaT_74Di-2" value="遍历全部的节点&#xa;1. gdef_nodes_ 存储每个节点对应的idx，数组形式&#xa;存储每个节点&#xa;2.merge_node_indices_存储idx是否是merge节点&#xa;3." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;" vertex="1" parent="avZbhJU5zutssaT_74Di-1">
+        <mxCell id="avZbhJU5zutssaT_74Di-2" value="遍历全部的节点&#xa;1. gdef_nodes_ 存储每个节点对应的idx，数组形式&#xa;存储每个节点&#xa;2.merge_node_indices_存储idx是否是merge节点&#xa;3." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;" parent="avZbhJU5zutssaT_74Di-1" vertex="1">
           <mxGeometry y="26" width="320" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="avZbhJU5zutssaT_74Di-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;" vertex="1" parent="avZbhJU5zutssaT_74Di-1">
+        <mxCell id="avZbhJU5zutssaT_74Di-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;" parent="avZbhJU5zutssaT_74Di-1" vertex="1">
           <mxGeometry y="140" width="320" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="avZbhJU5zutssaT_74Di-4" value="GraphConstructor::InitFromEdges" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="avZbhJU5zutssaT_74Di-4" value="GraphConstructor::InitFromEdges" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="7520" y="2390" width="320" height="148" as="geometry" />
         </mxCell>
-        <mxCell id="avZbhJU5zutssaT_74Di-5" value="遍历全部的节点&#xa;1. 是否是下一个迭代描述符&#xa;2.构造outputs_，标记每一个节点的输出，是否有&#xa;被其他节点作为输入&#xa;3. 把正确的节点，存储到ready_ " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;" vertex="1" parent="avZbhJU5zutssaT_74Di-4">
+        <mxCell id="avZbhJU5zutssaT_74Di-5" value="遍历全部的节点&#xa;1. 是否是下一个迭代描述符&#xa;2.构造outputs_，标记每一个节点的输出，是否有&#xa;被其他节点作为输入&#xa;3. 把正确的节点，存储到ready_ " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;" parent="avZbhJU5zutssaT_74Di-4" vertex="1">
           <mxGeometry y="26" width="320" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="avZbhJU5zutssaT_74Di-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;" vertex="1" parent="avZbhJU5zutssaT_74Di-4">
+        <mxCell id="avZbhJU5zutssaT_74Di-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;" parent="avZbhJU5zutssaT_74Di-4" vertex="1">
           <mxGeometry y="140" width="320" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="avZbhJU5zutssaT_74Di-9" value="GraphConstructor::Convert" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="avZbhJU5zutssaT_74Di-9" value="GraphConstructor::Convert" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="7860" y="2390" width="320" height="148" as="geometry" />
         </mxCell>
-        <mxCell id="avZbhJU5zutssaT_74Di-10" value="1." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;" vertex="1" parent="avZbhJU5zutssaT_74Di-9">
+        <mxCell id="avZbhJU5zutssaT_74Di-10" value="1.遍历准备好的每一个节点，组成边，放到edges_&#xa;里面。&#xa;边就是由source_node，第几个输出，dest_node，&#xa;作为第几个输入" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;" parent="avZbhJU5zutssaT_74Di-9" vertex="1">
           <mxGeometry y="26" width="320" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="avZbhJU5zutssaT_74Di-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;" vertex="1" parent="avZbhJU5zutssaT_74Di-9">
+        <mxCell id="avZbhJU5zutssaT_74Di-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;" parent="avZbhJU5zutssaT_74Di-9" vertex="1">
           <mxGeometry y="140" width="320" height="8" as="geometry" />
         </mxCell>
       </root>
