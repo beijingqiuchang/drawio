@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-11-19T06:12:03.774Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.53" etag="fD_UxPodYGRb6Mser4nD" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-22T05:32:07.389Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.53" etag="ntsJMJyLhCcUqHJ_P4RV" version="15.7.3" type="github">
   <diagram id="PrGpzekshYqfDAG1nMo7" name="Page-1">
     <mxGraphModel dx="1026" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XRfPd4hgNfugNbcJPAJP-18" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="XRfPd4hgNfugNbcJPAJP-11" target="XRfPd4hgNfugNbcJPAJP-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XRfPd4hgNfugNbcJPAJP-11" value="GraphExecutionState::InitBaseGraph" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="7880" y="1721.94" width="260" height="88" as="geometry" />
+          <mxGeometry x="7920" y="1721.94" width="260" height="88" as="geometry" />
         </mxCell>
         <mxCell id="XRfPd4hgNfugNbcJPAJP-12" value="1." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;" vertex="1" parent="XRfPd4hgNfugNbcJPAJP-11">
           <mxGeometry y="26" width="260" height="54" as="geometry" />
@@ -1125,6 +1128,15 @@
         </mxCell>
         <mxCell id="XRfPd4hgNfugNbcJPAJP-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;" vertex="1" parent="XRfPd4hgNfugNbcJPAJP-6">
           <mxGeometry y="140" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="XRfPd4hgNfugNbcJPAJP-15" value="OptimizationPassRegistry::RunGrouping" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="7830" y="1869.94" width="280" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="XRfPd4hgNfugNbcJPAJP-16" value="1. 运行 PRE_PLACEMENT 阶段的优化器" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;" vertex="1" parent="XRfPd4hgNfugNbcJPAJP-15">
+          <mxGeometry y="26" width="280" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="XRfPd4hgNfugNbcJPAJP-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;" vertex="1" parent="XRfPd4hgNfugNbcJPAJP-15">
+          <mxGeometry y="80" width="280" height="8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
