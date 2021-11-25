@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T06:52:02.167Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.53" etag="HYGZYof8CA1OYqLZMgeB" version="15.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-25T07:03:48.959Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.53" etag="sGkIu-xqjw3bKJj3kQ7Z" version="15.8.4" type="github">
   <diagram id="PrGpzekshYqfDAG1nMo7" name="Page-1">
     <mxGraphModel dx="1426" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
       <root>
@@ -1190,13 +1190,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L3Tjn2m3WbrMSYGUrsDM-14" value="IntroduceJitterToTensor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="8920" y="1238" width="350" height="88" as="geometry" />
+          <mxGeometry x="8920" y="1238" width="370" height="88" as="geometry" />
         </mxCell>
-        <mxCell id="L3Tjn2m3WbrMSYGUrsDM-15" value="针对tensor_names标记的全部node，对应的数据，增加&#xa;jitter_amount计算&#xa;输入：每一个node, 和他的输出" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;rounded=1;sketch=1;" parent="L3Tjn2m3WbrMSYGUrsDM-14" vertex="1">
-          <mxGeometry y="26" width="350" height="54" as="geometry" />
+        <mxCell id="L3Tjn2m3WbrMSYGUrsDM-15" value="针对tensor_names标记的全部node，对应的数据，增加&#xa;jitter_amount计算&#xa;输入：每一个node, 和他的输出&#xa;新生成一个节点（原始节点的值+jiter_amount），替换原始的边" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;rounded=1;sketch=1;" parent="L3Tjn2m3WbrMSYGUrsDM-14" vertex="1">
+          <mxGeometry y="26" width="370" height="54" as="geometry" />
         </mxCell>
         <mxCell id="L3Tjn2m3WbrMSYGUrsDM-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;sketch=1;" parent="L3Tjn2m3WbrMSYGUrsDM-14" vertex="1">
-          <mxGeometry y="80" width="350" height="8" as="geometry" />
+          <mxGeometry y="80" width="370" height="8" as="geometry" />
         </mxCell>
         <mxCell id="OopTcxxW92DIY_iX-P7o-9" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curved=1;" parent="1" source="OopTcxxW92DIY_iX-P7o-1" target="OopTcxxW92DIY_iX-P7o-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
