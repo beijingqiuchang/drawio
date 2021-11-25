@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-25T07:03:57.958Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.53" etag="N3OB4SWulfWXJlaLDBq7" version="15.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-25T07:04:53.178Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36 Edg/95.0.1020.53" etag="FqIyQSb6ug_Q-QjmuQYH" version="15.8.4" type="github">
   <diagram id="PrGpzekshYqfDAG1nMo7" name="Page-1">
     <mxGraphModel dx="1426" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
       <root>
@@ -1129,7 +1129,7 @@
         <mxCell id="XRfPd4hgNfugNbcJPAJP-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;sketch=1;" parent="XRfPd4hgNfugNbcJPAJP-6" vertex="1">
           <mxGeometry y="140" width="320" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="DCu4c_0Sjek1R3E8ysqf-1" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.017;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;sketch=1;curved=1;" edge="1" parent="1" source="XRfPd4hgNfugNbcJPAJP-15" target="L3Tjn2m3WbrMSYGUrsDM-2">
+        <mxCell id="DCu4c_0Sjek1R3E8ysqf-1" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.017;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;sketch=1;curved=1;" parent="1" source="XRfPd4hgNfugNbcJPAJP-15" target="L3Tjn2m3WbrMSYGUrsDM-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="XRfPd4hgNfugNbcJPAJP-15" value="OptimizationPassRegistry::RunGrouping" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;sketch=1;" parent="1" vertex="1">
@@ -1190,13 +1190,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="L3Tjn2m3WbrMSYGUrsDM-14" value="IntroduceJitterToTensor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;rounded=1;sketch=1;" parent="1" vertex="1">
-          <mxGeometry x="8920" y="1238" width="370" height="88" as="geometry" />
+          <mxGeometry x="8920" y="1238" width="450" height="128" as="geometry" />
         </mxCell>
         <mxCell id="L3Tjn2m3WbrMSYGUrsDM-15" value="针对tensor_names标记的全部node，对应的数据，增加&#xa;jitter_amount计算&#xa;输入：每一个node, 和他的输出&#xa;新生成一个节点（原始节点的值+jiter_amount），替换原始的边" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;rounded=1;sketch=1;" parent="L3Tjn2m3WbrMSYGUrsDM-14" vertex="1">
-          <mxGeometry y="26" width="370" height="54" as="geometry" />
+          <mxGeometry y="26" width="450" height="94" as="geometry" />
         </mxCell>
         <mxCell id="L3Tjn2m3WbrMSYGUrsDM-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;sketch=1;" parent="L3Tjn2m3WbrMSYGUrsDM-14" vertex="1">
-          <mxGeometry y="80" width="370" height="8" as="geometry" />
+          <mxGeometry y="120" width="450" height="8" as="geometry" />
         </mxCell>
         <mxCell id="OopTcxxW92DIY_iX-P7o-9" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curved=1;" parent="1" source="OopTcxxW92DIY_iX-P7o-1" target="OopTcxxW92DIY_iX-P7o-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1219,7 +1219,7 @@
         <mxCell id="OopTcxxW92DIY_iX-P7o-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;sketch=1;" parent="OopTcxxW92DIY_iX-P7o-4" vertex="1">
           <mxGeometry y="80" width="260" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="DCu4c_0Sjek1R3E8ysqf-2" value="针对传入的node，创建&lt;br&gt;一个专有的 scope" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="DCu4c_0Sjek1R3E8ysqf-2" value="针对传入的node，创建&lt;br&gt;一个专有的 scope" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="9200" y="1155" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
