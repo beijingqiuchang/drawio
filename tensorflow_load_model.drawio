@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T03:56:26.977Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.76" etag="5XEfUxIl7KDOuFndoeWW" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-08T05:44:22.286Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.76" etag="oVFKux2EoESDEBB2I9uq" version="16.5.3" type="github">
   <diagram id="PrGpzekshYqfDAG1nMo7" name="Page-1">
     <mxGraphModel dx="359" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
       <root>
@@ -1952,6 +1952,9 @@
         <mxCell id="xqGwwgqh66XzazMKOP8q-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.08;entryDx=0;entryDy=0;entryPerimeter=0;sketch=1;curved=1;" edge="1" parent="1" source="NFQMgr4dNtKxRAZzBl4d-6" target="xqGwwgqh66XzazMKOP8q-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="xqGwwgqh66XzazMKOP8q-16" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NFQMgr4dNtKxRAZzBl4d-6" target="xqGwwgqh66XzazMKOP8q-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NFQMgr4dNtKxRAZzBl4d-6" value="PRE_PLACEMENT group的优化器" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="8300" y="1835.94" width="230" height="34" as="geometry" />
         </mxCell>
@@ -2027,10 +2030,19 @@
         <mxCell id="xqGwwgqh66XzazMKOP8q-9" value="AccumulateNV2RemovePass::Run" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="8620" y="2092" width="260" height="88" as="geometry" />
         </mxCell>
-        <mxCell id="xqGwwgqh66XzazMKOP8q-10" value="针对while节点" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;fontColor=#E4FDE1;" vertex="1" parent="xqGwwgqh66XzazMKOP8q-9">
+        <mxCell id="xqGwwgqh66XzazMKOP8q-10" value="AccumulateNV2 节点进行替换" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;fontColor=#E4FDE1;" vertex="1" parent="xqGwwgqh66XzazMKOP8q-9">
           <mxGeometry y="26" width="260" height="54" as="geometry" />
         </mxCell>
         <mxCell id="xqGwwgqh66XzazMKOP8q-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;labelBackgroundColor=#114B5F;strokeColor=#028090;fontColor=#E4FDE1;" vertex="1" parent="xqGwwgqh66XzazMKOP8q-9">
+          <mxGeometry y="80" width="260" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="xqGwwgqh66XzazMKOP8q-13" value="LowerFunctionalOpsPass::Run" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="8620" y="2200" width="260" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="xqGwwgqh66XzazMKOP8q-14" value="AccumulateNV2 节点进行替换" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;fontColor=#E4FDE1;" vertex="1" parent="xqGwwgqh66XzazMKOP8q-13">
+          <mxGeometry y="26" width="260" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="xqGwwgqh66XzazMKOP8q-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;labelBackgroundColor=#114B5F;strokeColor=#028090;fontColor=#E4FDE1;" vertex="1" parent="xqGwwgqh66XzazMKOP8q-13">
           <mxGeometry y="80" width="260" height="8" as="geometry" />
         </mxCell>
       </root>
