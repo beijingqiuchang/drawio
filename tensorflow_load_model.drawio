@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T07:39:01.261Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.76" etag="eNBiAe1TIgB2pDkIOtBN" version="16.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-08T07:39:09.742Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36 Edg/97.0.1072.76" etag="ZJspOPZGWUAC37HdRdls" version="16.5.3" type="github">
   <diagram id="PrGpzekshYqfDAG1nMo7" name="Page-1">
     <mxGraphModel dx="811" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
       <root>
@@ -2100,7 +2100,7 @@
           <mxGeometry y="80" width="260" height="8" as="geometry" />
         </mxCell>
         <mxCell id="xqGwwgqh66XzazMKOP8q-37" value="IntroduceJitterToTensor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="9400" y="3370" width="260" height="148" as="geometry" />
+          <mxGeometry x="9390" y="3362" width="260" height="148" as="geometry" />
         </mxCell>
         <mxCell id="xqGwwgqh66XzazMKOP8q-38" value="创建jit_tensor，并使用新的tensor，替换&#xa;原始的edge&#xa;1. 在原始的node域名下，创建/jitter域名&#xa;2. 在1创建的域名下，绑定建好的Tensor&#xa;3. 更新原始的边，把指定的node节点，&#xa;替换成新建的tensor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;fontColor=#E4FDE1;" vertex="1" parent="xqGwwgqh66XzazMKOP8q-37">
           <mxGeometry y="26" width="260" height="114" as="geometry" />
