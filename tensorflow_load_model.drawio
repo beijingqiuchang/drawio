@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T11:13:45.302Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36" etag="4VIDJ68ux5N4pa0mLxdM" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-15T11:19:48.435Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.36" etag="cf9dzJln0q9IRSrL9tBc" version="17.4.3" type="github">
   <diagram id="PrGpzekshYqfDAG1nMo7" name="Page-1">
     <mxGraphModel dx="267" dy="1041" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
       <root>
@@ -2648,14 +2648,26 @@
         <mxCell id="F0vqGMvhdFUCiPwjYA51-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;labelBackgroundColor=#114B5F;strokeColor=#028090;fontColor=#E4FDE1;" vertex="1" parent="F0vqGMvhdFUCiPwjYA51-21">
           <mxGeometry y="50" width="360" height="8" as="geometry" />
         </mxCell>
+        <mxCell id="F0vqGMvhdFUCiPwjYA51-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="F0vqGMvhdFUCiPwjYA51-25" target="F0vqGMvhdFUCiPwjYA51-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="F0vqGMvhdFUCiPwjYA51-25" value="MarkForCompilationPassImpl::TryToContractEdge" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="8540" y="5080" width="360" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="F0vqGMvhdFUCiPwjYA51-26" value="尽量多的收缩节点到cluster内" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;fontColor=#E4FDE1;" vertex="1" parent="F0vqGMvhdFUCiPwjYA51-25">
+        <mxCell id="F0vqGMvhdFUCiPwjYA51-26" value="检查两个算子是否满足合并要求，满足进行合并" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;fontColor=#E4FDE1;" vertex="1" parent="F0vqGMvhdFUCiPwjYA51-25">
           <mxGeometry y="24" width="360" height="26" as="geometry" />
         </mxCell>
         <mxCell id="F0vqGMvhdFUCiPwjYA51-27" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;labelBackgroundColor=#114B5F;strokeColor=#028090;fontColor=#E4FDE1;" vertex="1" parent="F0vqGMvhdFUCiPwjYA51-25">
           <mxGeometry y="50" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="F0vqGMvhdFUCiPwjYA51-29" value="MergeClusters" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="8950" y="5080" width="230" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="F0vqGMvhdFUCiPwjYA51-30" value="合并算子" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;fontColor=#E4FDE1;" vertex="1" parent="F0vqGMvhdFUCiPwjYA51-29">
+          <mxGeometry y="24" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="F0vqGMvhdFUCiPwjYA51-31" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;labelBackgroundColor=#114B5F;strokeColor=#028090;fontColor=#E4FDE1;" vertex="1" parent="F0vqGMvhdFUCiPwjYA51-29">
+          <mxGeometry y="50" width="230" height="8" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
