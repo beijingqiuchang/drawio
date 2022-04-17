@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-17T08:54:10.848Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.39" etag="agKVRj46XBSQGoMSSaDD" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-17T09:07:58.921Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36 Edg/100.0.1185.39" etag="SrpTbPr3rEjEmSgPqZ9w" version="17.4.5" type="github">
   <diagram id="1JDVYsquey9XnN15ssZm" name="Page-1">
     <mxGraphModel dx="1426" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,11 +79,29 @@
         <mxCell id="VtqtTlVIz1zTJZTsndwx-21" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; line-height: 24px&quot;&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;server&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe&quot;&gt;clients_pending_read&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2230" y="-200" width="290" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="VtqtTlVIz1zTJZTsndwx-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VtqtTlVIz1zTJZTsndwx-24" target="VtqtTlVIz1zTJZTsndwx-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VtqtTlVIz1zTJZTsndwx-24" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; line-height: 24px&quot;&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;io_threads_list&lt;/span&gt;[&lt;span style=&quot;color: #9cdcfe&quot;&gt;target_id&lt;/span&gt;]&lt;/div&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; line-height: 24px&quot;&gt;任务放到这个队列&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2820" y="-200" width="260" height="40" as="geometry" />
+          <mxGeometry x="3010" y="20" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VtqtTlVIz1zTJZTsndwx-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VtqtTlVIz1zTJZTsndwx-26" target="VtqtTlVIz1zTJZTsndwx-28">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VtqtTlVIz1zTJZTsndwx-26" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; line-height: 24px&quot;&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;io_threads_pending&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; line-height: 24px&quot;&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;当前&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(156 , 220 , 254) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; background-color: rgb(30 , 30 , 30)&quot;&gt;io_threads_list队列的长度在这个管道进行更新&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2840" y="10" width="230" height="40" as="geometry" />
+          <mxGeometry x="2960" y="140" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VtqtTlVIz1zTJZTsndwx-28" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; line-height: 24px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;IOThreadMain&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3470" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VtqtTlVIz1zTJZTsndwx-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VtqtTlVIz1zTJZTsndwx-31" target="VtqtTlVIz1zTJZTsndwx-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VtqtTlVIz1zTJZTsndwx-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VtqtTlVIz1zTJZTsndwx-31" target="VtqtTlVIz1zTJZTsndwx-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VtqtTlVIz1zTJZTsndwx-31" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; line-height: 24px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;handleClientsWithPendingWritesUsingThreads&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 16px ; line-height: 24px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;消费写回客户端的队列&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2410" y="240" width="430" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
