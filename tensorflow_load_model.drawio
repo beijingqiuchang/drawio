@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T12:17:32.841Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="jjvXYBFj0LFLCPL6Iq8L" version="18.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T15:45:22.199Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="ZiGxXU-BhBcH8VtZc6V7" version="18.0.2" type="github">
   <diagram id="PrGpzekshYqfDAG1nMo7" name="Page-1">
-    <mxGraphModel dx="551" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
+    <mxGraphModel dx="-104" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2855,7 +2855,7 @@
         <mxCell id="OaHePS5EYtPv2wYArxtQ-43" value="PickDeviceForXla" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="8300.5" y="5730" width="330" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="OaHePS5EYtPv2wYArxtQ-44" value="将FunctionCall节点替换成 XlaCompileAndXlaRun" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;fontColor=#E4FDE1;" parent="OaHePS5EYtPv2wYArxtQ-43" vertex="1">
+        <mxCell id="OaHePS5EYtPv2wYArxtQ-44" value="一个func下会有多个node，每个node对应设备不同&#xa;选出一个设备来" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;fontColor=#E4FDE1;" parent="OaHePS5EYtPv2wYArxtQ-43" vertex="1">
           <mxGeometry y="24" width="330" height="46" as="geometry" />
         </mxCell>
         <mxCell id="OaHePS5EYtPv2wYArxtQ-45" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;labelBackgroundColor=#114B5F;strokeColor=#028090;fontColor=#E4FDE1;" parent="OaHePS5EYtPv2wYArxtQ-43" vertex="1">
