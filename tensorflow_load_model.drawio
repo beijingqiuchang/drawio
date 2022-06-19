@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-19T09:10:42.585Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="FQd_QCBZFY8BmE3O5zYW" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-19T09:13:28.573Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.44" etag="Qtz8ApOxN3b6XBAL_fiV" version="20.0.1" type="github">
   <diagram id="PrGpzekshYqfDAG1nMo7" name="Page-1">
     <mxGraphModel dx="311" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#114B5F" math="0" shadow="0">
       <root>
@@ -2954,7 +2954,7 @@
         <mxCell id="zoImYhYmOoVBJAo7I_vf-15" value="XlaCompilationCache::CompileStrict" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="8610" y="5999" width="230" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="zoImYhYmOoVBJAo7I_vf-16" value="编译节点" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;fontColor=#E4FDE1;" parent="zoImYhYmOoVBJAo7I_vf-15" vertex="1">
+        <mxCell id="zoImYhYmOoVBJAo7I_vf-16" value="编译成HLOProto" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;fontColor=#E4FDE1;" parent="zoImYhYmOoVBJAo7I_vf-15" vertex="1">
           <mxGeometry y="24" width="230" height="46" as="geometry" />
         </mxCell>
         <mxCell id="zoImYhYmOoVBJAo7I_vf-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;labelBackgroundColor=#114B5F;strokeColor=#028090;fontColor=#E4FDE1;" parent="zoImYhYmOoVBJAo7I_vf-15" vertex="1">
@@ -3033,7 +3033,7 @@
           <mxGeometry y="70" width="270" height="8" as="geometry" />
         </mxCell>
         <mxCell id="lY_Ux7X3DutsqqxQmEs--10" value="LocalService::CompileExecutables" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="7560" y="6240" width="240" height="78" as="geometry" />
+          <mxGeometry x="9460" y="6137" width="240" height="78" as="geometry" />
         </mxCell>
         <mxCell id="lY_Ux7X3DutsqqxQmEs--11" value="将FunctionCall节点替换成&#xa;XlaCompileOp和XlaRunOp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;fontColor=#E4FDE1;" vertex="1" parent="lY_Ux7X3DutsqqxQmEs--10">
           <mxGeometry y="24" width="240" height="46" as="geometry" />
@@ -3045,7 +3045,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lY_Ux7X3DutsqqxQmEs--13" value="LocalService::CompileExecutables" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="7260" y="6240" width="240" height="78" as="geometry" />
+          <mxGeometry x="9160" y="6137" width="240" height="78" as="geometry" />
         </mxCell>
         <mxCell id="lY_Ux7X3DutsqqxQmEs--14" value="将FunctionCall节点替换成&#xa;XlaCompileOp和XlaRunOp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;fontColor=#E4FDE1;" vertex="1" parent="lY_Ux7X3DutsqqxQmEs--13">
           <mxGeometry y="24" width="240" height="46" as="geometry" />
@@ -3059,7 +3059,7 @@
         <mxCell id="lY_Ux7X3DutsqqxQmEs--18" value="XlaCompilationCache::BuildExecutable" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="8610" y="6138" width="230" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="lY_Ux7X3DutsqqxQmEs--19" value="编译节点" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;fontColor=#E4FDE1;" vertex="1" parent="lY_Ux7X3DutsqqxQmEs--18">
+        <mxCell id="lY_Ux7X3DutsqqxQmEs--19" value="配合JIT模块将HloModuleProto&#xa;转为LocalExecutable" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;fontColor=#E4FDE1;" vertex="1" parent="lY_Ux7X3DutsqqxQmEs--18">
           <mxGeometry y="24" width="230" height="46" as="geometry" />
         </mxCell>
         <mxCell id="lY_Ux7X3DutsqqxQmEs--20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;sketch=1;rounded=1;labelBackgroundColor=#114B5F;strokeColor=#028090;fontColor=#E4FDE1;" vertex="1" parent="lY_Ux7X3DutsqqxQmEs--18">
@@ -3068,8 +3068,11 @@
         <mxCell id="lY_Ux7X3DutsqqxQmEs--21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="zoImYhYmOoVBJAo7I_vf-11" target="lY_Ux7X3DutsqqxQmEs--18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="lY_Ux7X3DutsqqxQmEs--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="lY_Ux7X3DutsqqxQmEs--22" target="lY_Ux7X3DutsqqxQmEs--13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lY_Ux7X3DutsqqxQmEs--22" value="LocalClient::Compile" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#E4FDE1;strokeColor=#028090;fillColor=#F45B69;sketch=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="8890" y="6137" width="230" height="78" as="geometry" />
+          <mxGeometry x="8880" y="6137" width="230" height="78" as="geometry" />
         </mxCell>
         <mxCell id="lY_Ux7X3DutsqqxQmEs--23" value="编译节点" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;sketch=1;rounded=1;fontColor=#E4FDE1;" vertex="1" parent="lY_Ux7X3DutsqqxQmEs--22">
           <mxGeometry y="24" width="230" height="46" as="geometry" />
