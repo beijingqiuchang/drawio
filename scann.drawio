@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.10">
   <diagram name="第 1 页" id="wL8twm-uxIduVu4hexvK">
-    <mxGraphModel dx="946" dy="1668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1773" dy="1668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,13 +23,52 @@
           <mxGeometry x="310" y="-300" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LCGAt8tk4dNNPUiXN7EP-4" value="SingleMachineSearcherBase&amp;lt;T&amp;gt;::FindNeighborsNoSortNoExactReorder" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="-355" width="390" height="60" as="geometry" />
+          <mxGeometry x="670" y="-360" width="410" height="65" as="geometry" />
         </mxCell>
         <mxCell id="LCGAt8tk4dNNPUiXN7EP-6" value="SingleMachineSearcherBase&amp;lt;T&amp;gt;::ReorderResults" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="-250" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LCGAt8tk4dNNPUiXN7EP-8" value="SingleMachineSearcherBase&amp;lt;T&amp;gt;::SortAndDropResults" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="-160" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LCGAt8tk4dNNPUiXN7EP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LCGAt8tk4dNNPUiXN7EP-10" target="LCGAt8tk4dNNPUiXN7EP-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCGAt8tk4dNNPUiXN7EP-10" value="searcher的创建" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LCGAt8tk4dNNPUiXN7EP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LCGAt8tk4dNNPUiXN7EP-11" target="LCGAt8tk4dNNPUiXN7EP-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCGAt8tk4dNNPUiXN7EP-11" value="SingleMachineFactoryImplClass" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="25" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LCGAt8tk4dNNPUiXN7EP-12" value="SingleMachineFactoryImpl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="10" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LCGAt8tk4dNNPUiXN7EP-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LCGAt8tk4dNNPUiXN7EP-14" target="LCGAt8tk4dNNPUiXN7EP-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCGAt8tk4dNNPUiXN7EP-14" value="SingleMachineFactoryUntypedImpl" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="20" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCGAt8tk4dNNPUiXN7EP-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LCGAt8tk4dNNPUiXN7EP-15" target="LCGAt8tk4dNNPUiXN7EP-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCGAt8tk4dNNPUiXN7EP-15" value="SingleMachineFactoryUntypedScann" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="20" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LCGAt8tk4dNNPUiXN7EP-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LCGAt8tk4dNNPUiXN7EP-18" target="LCGAt8tk4dNNPUiXN7EP-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCGAt8tk4dNNPUiXN7EP-18" value="SingleMachineFactoryScann" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="15" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LCGAt8tk4dNNPUiXN7EP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LCGAt8tk4dNNPUiXN7EP-20" target="LCGAt8tk4dNNPUiXN7EP-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LCGAt8tk4dNNPUiXN7EP-20" value="ScannInterface::Initialize" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="20" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
