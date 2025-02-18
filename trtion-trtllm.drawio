@@ -1,9 +1,18 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="25.0.3">
   <diagram name="第 1 页" id="e3kwn4urfBCaLULZyXhO">
-    <mxGraphModel>
+    <mxGraphModel dx="1666" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8ht5_bGMHFuDt7zcKh8R-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="8ht5_bGMHFuDt7zcKh8R-1" target="8ht5_bGMHFuDt7zcKh8R-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8ht5_bGMHFuDt7zcKh8R-1" value="trt-llm-backend" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="50" y="250" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8ht5_bGMHFuDt7zcKh8R-2" value="&lt;div style=&quot;--en-codeblock:true;--en-meta:{&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;lang&amp;quot;:&amp;quot;C++&amp;quot;,&amp;quot;theme&amp;quot;:&amp;quot;default&amp;quot;,&amp;quot;showLine&amp;quot;:true,&amp;quot;lineWrap&amp;quot;:false};--en-code:WyJUUklUT05CQUNLRU5EX01vZGVsSW5zdGFuY2VFeGVjdXRlIl0;&quot;&gt;TRITONBACKEND_ModelInstanceExecute&lt;/div&gt;&lt;div style=&quot;--en-codeblock:true;--en-meta:{&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;lang&amp;quot;:&amp;quot;C++&amp;quot;,&amp;quot;theme&amp;quot;:&amp;quot;default&amp;quot;,&amp;quot;showLine&amp;quot;:true,&amp;quot;lineWrap&amp;quot;:false};--en-code:WyJUUklUT05CQUNLRU5EX01vZGVsSW5zdGFuY2VFeGVjdXRlIl0;&quot;&gt;模型执行请求&lt;/div&gt;&lt;div style=&quot;--en-codeblock:true;--en-meta:{&amp;quot;title&amp;quot;:&amp;quot;&amp;quot;,&amp;quot;lang&amp;quot;:&amp;quot;C++&amp;quot;,&amp;quot;theme&amp;quot;:&amp;quot;default&amp;quot;,&amp;quot;showLine&amp;quot;:true,&amp;quot;lineWrap&amp;quot;:false};--en-code:WyJUUklUT05CQUNLRU5EX01vZGVsSW5zdGFuY2VFeGVjdXRlIl0;&quot;&gt;trtion已经组织好batch，发给backend&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="250" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
