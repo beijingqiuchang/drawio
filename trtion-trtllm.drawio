@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16">
   <diagram name="第 1 页" id="e3kwn4urfBCaLULZyXhO">
-    <mxGraphModel dx="1765" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1650" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -322,7 +322,7 @@
         <mxCell id="EsbBtJam3L4hfQBlaHVI-10" value="executor::Request定义在TensorRT-LLM/cpp/include/tensorrt_llm/executor/executor.h" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="EsbBtJam3L4hfQBlaHVI-11">
           <mxGeometry x="170" width="520" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EsbBtJam3L4hfQBlaHVI-12" value="auto requestIds = mExecutor-&amp;gt;enqueueRequests(executorRequests);&lt;div&gt;放到调度队列，目前看没开源，不知道实现&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+        <mxCell id="EsbBtJam3L4hfQBlaHVI-12" value="auto requestIds = &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;mExecutor&lt;/font&gt;-&amp;gt;enqueueRequests(executorRequests);&lt;div&gt;放到调度队列，目前看没开源，不知道实现&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
           <mxGeometry x="700" y="90" width="410" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EsbBtJam3L4hfQBlaHVI-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="EsbBtJam3L4hfQBlaHVI-14" target="EsbBtJam3L4hfQBlaHVI-16">
@@ -331,7 +331,7 @@
         <mxCell id="EsbBtJam3L4hfQBlaHVI-14" value="ModelInstanceState::WaitForResponse&lt;div&gt;单独现成，等待推理结果&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
           <mxGeometry x="200" y="250" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EsbBtJam3L4hfQBlaHVI-16" value="mExecutor-&amp;gt;awaitResponses(waitTime);&lt;div&gt;等待推理结果&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+        <mxCell id="EsbBtJam3L4hfQBlaHVI-16" value="&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;mExecutor&lt;/font&gt;-&amp;gt;awaitResponses(waitTime);&lt;div&gt;等待推理结果&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
           <mxGeometry x="530" y="240" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
