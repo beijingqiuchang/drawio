@@ -30,6 +30,9 @@
         <mxCell id="8ht5_bGMHFuDt7zcKh8R-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" source="8ht5_bGMHFuDt7zcKh8R-4" target="8ht5_bGMHFuDt7zcKh8R-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="EsbBtJam3L4hfQBlaHVI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="8ht5_bGMHFuDt7zcKh8R-4" target="EsbBtJam3L4hfQBlaHVI-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="8ht5_bGMHFuDt7zcKh8R-4" value="ModelInstanceState::enqueue&lt;div&gt;从队列获取请求并处理&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
           <mxGeometry x="490" y="157.5" width="170" height="52.5" as="geometry" />
         </mxCell>
@@ -315,6 +318,9 @@
         </mxCell>
         <mxCell id="EsbBtJam3L4hfQBlaHVI-10" value="executor::Request定义在TensorRT-LLM/cpp/include/tensorrt_llm/executor/executor.h" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="EsbBtJam3L4hfQBlaHVI-11">
           <mxGeometry x="170" width="520" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EsbBtJam3L4hfQBlaHVI-12" value="auto requestIds = mExecutor-&amp;gt;enqueueRequests(executorRequests);&lt;div&gt;放到调度队列，目前看没开源，不知道实现&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="700" y="90" width="410" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
