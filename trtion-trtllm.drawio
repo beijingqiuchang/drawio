@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.16">
   <diagram name="第 1 页" id="e3kwn4urfBCaLULZyXhO">
-    <mxGraphModel dx="2595" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2595" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,14 +30,14 @@
         <mxCell id="8ht5_bGMHFuDt7zcKh8R-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" source="8ht5_bGMHFuDt7zcKh8R-4" target="8ht5_bGMHFuDt7zcKh8R-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8ht5_bGMHFuDt7zcKh8R-4" value="ModelInstanceState::enqueue" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+        <mxCell id="8ht5_bGMHFuDt7zcKh8R-4" value="ModelInstanceState::enqueue&lt;div&gt;从队列获取请求并处理&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
           <mxGeometry x="490" y="157.5" width="170" height="52.5" as="geometry" />
         </mxCell>
         <mxCell id="EsbBtJam3L4hfQBlaHVI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="8ht5_bGMHFuDt7zcKh8R-6" target="EsbBtJam3L4hfQBlaHVI-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8ht5_bGMHFuDt7zcKh8R-6" value="ModelInstanceState::createExecutorRequests&lt;div&gt;解析请求&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
-          <mxGeometry x="700" y="155" width="260" height="60" as="geometry" />
+          <mxGeometry x="700" y="-10" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O3_4RphO-YQ4waVhKGMV-5" value="BaseAllocator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
           <mxGeometry x="150" y="460" width="140" height="120" as="geometry" />
@@ -307,11 +307,14 @@
         <mxCell id="EsbBtJam3L4hfQBlaHVI-6" value="ipcNvlsAllocate" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
           <mxGeometry x="470" y="1005" width="120" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="EsbBtJam3L4hfQBlaHVI-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;createRequestsFromInputTensors&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;解析批量请求，获取token、参数构造std::vector&amp;lt;executor::Request&amp;gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="145.63" width="500" height="76.25" as="geometry" />
+        <mxCell id="EsbBtJam3L4hfQBlaHVI-11" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1010" y="-60" width="690" height="111.88" as="geometry" />
         </mxCell>
-        <mxCell id="EsbBtJam3L4hfQBlaHVI-10" value="executor::Request定义在TensorRT-LLM/cpp/include/tensorrt_llm/executor/executor.h" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="110" width="520" height="80" as="geometry" />
+        <mxCell id="EsbBtJam3L4hfQBlaHVI-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;createRequestsFromInputTensors&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;解析批量请求，获取token、参数构造std::vector&amp;lt;executor::Request&amp;gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="EsbBtJam3L4hfQBlaHVI-11">
+          <mxGeometry y="35.629999999999995" width="500" height="76.25" as="geometry" />
+        </mxCell>
+        <mxCell id="EsbBtJam3L4hfQBlaHVI-10" value="executor::Request定义在TensorRT-LLM/cpp/include/tensorrt_llm/executor/executor.h" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="EsbBtJam3L4hfQBlaHVI-11">
+          <mxGeometry x="170" width="520" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
