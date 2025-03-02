@@ -310,6 +310,9 @@
         <mxCell id="EsbBtJam3L4hfQBlaHVI-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;createRequestsFromInputTensors&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;解析批量请求，获取token、参数构造std::vector&amp;lt;executor::Request&amp;gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
           <mxGeometry x="1020" y="145.63" width="500" height="76.25" as="geometry" />
         </mxCell>
+        <mxCell id="EsbBtJam3L4hfQBlaHVI-10" value="executor::Request定义在TensorRT-LLM/cpp/include/tensorrt_llm/executor/executor.h" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="110" width="520" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
