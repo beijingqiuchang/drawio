@@ -277,7 +277,13 @@
           <mxGeometry height="60" width="240" x="10" y="910" as="geometry" />
         </mxCell>
         <mxCell id="k_h_Lm1G91--AWj1ir73-4" edge="1" parent="1" source="RRttGqnJUpYtgylmyCHL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" target="k_h_Lm1G91--AWj1ir73-1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="665" />
+              <mxPoint x="510" y="830" />
+              <mxPoint x="130" y="830" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="k_h_Lm1G91--AWj1ir73-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="get_new_batch_prefill" vertex="1">
           <mxGeometry height="40" width="200" x="320" y="890" as="geometry" />
@@ -488,12 +494,6 @@
             <mxPoint x="1094.7272727272725" y="1143.6363636363635" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RXP5xTipe0v33fiePh0x-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="-328" y="540" as="geometry" />
-        </mxCell>
-        <mxCell id="RXP5xTipe0v33fiePh0x-3" edge="1" parent="1" source="RXP5xTipe0v33fiePh0x-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="RXP5xTipe0v33fiePh0x-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="RXP5xTipe0v33fiePh0x-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="互斥，每个gpu一个进程" vertex="1">
           <mxGeometry height="60" width="120" x="114" y="580" as="geometry" />
         </mxCell>
@@ -504,6 +504,26 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RXP5xTipe0v33fiePh0x-9" edge="1" parent="1" source="RXP5xTipe0v33fiePh0x-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" target="RXP5xTipe0v33fiePh0x-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RXP5xTipe0v33fiePh0x-12" edge="1" parent="1" source="RXP5xTipe0v33fiePh0x-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;" target="-hwUMcQqM7VAQ96hzDWq-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-68" y="802" />
+              <mxPoint x="606" y="802" />
+              <mxPoint x="606" y="705" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RXP5xTipe0v33fiePh0x-13" connectable="0" parent="RXP5xTipe0v33fiePh0x-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="发送pp分阶段数据，forward_batch_generation负责接收" vertex="1">
+          <mxGeometry relative="1" x="-0.446" y="2" as="geometry">
+            <mxPoint x="74" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RXP5xTipe0v33fiePh0x-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="self.pp_group.send_tensor_dict" vertex="1">
+          <mxGeometry height="28" width="181" x="-159" y="741" as="geometry" />
+        </mxCell>
+        <mxCell id="RXP5xTipe0v33fiePh0x-11" edge="1" parent="1" source="RXP5xTipe0v33fiePh0x-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="RXP5xTipe0v33fiePh0x-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
