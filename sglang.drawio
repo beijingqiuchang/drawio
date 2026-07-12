@@ -601,7 +601,7 @@
           <mxGeometry height="27" width="120" x="2781.5" y="490" as="geometry" />
         </mxCell>
         <mxCell id="qomLu63G6siAQ9P1QpD9-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;VocabParallelEmbedding：：weight_loader&lt;/div&gt;&lt;div&gt;加载权重到gpu&lt;/div&gt;" vertex="1">
-          <mxGeometry height="31" width="270" x="2983.5" y="584.5" as="geometry" />
+          <mxGeometry height="31" width="270" x="2978" y="584.5" as="geometry" />
         </mxCell>
         <mxCell id="qomLu63G6siAQ9P1QpD9-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="load_weights&lt;div&gt;把模型数据从磁盘到cpu，再&lt;font style=&quot;color: rgb(255, 125, 86);&quot;&gt;加载到gpu&lt;/font&gt;（全部类型的权重都加载好）&lt;/div&gt;" vertex="1">
           <mxGeometry height="58" width="152" x="2407" y="618" as="geometry" />
@@ -614,6 +614,9 @@
         </mxCell>
         <mxCell id="qomLu63G6siAQ9P1QpD9-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="_get_weights_iterator&lt;div&gt;这里生成的是加载文件的对象，并不会实际把磁盘数据加载到内存&lt;/div&gt;" vertex="1">
           <mxGeometry height="64" width="140" x="2025" y="704" as="geometry" />
+        </mxCell>
+        <mxCell id="qomLu63G6siAQ9P1QpD9-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="forward&lt;div&gt;通过输入的tokenid，直接当做下标查找embedding&lt;/div&gt;" vertex="1">
+          <mxGeometry height="41" width="271" x="2978" y="621.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
