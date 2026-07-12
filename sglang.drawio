@@ -540,23 +540,39 @@
         <mxCell id="qomLu63G6siAQ9P1QpD9-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DefaultModelLoader" vertex="1">
           <mxGeometry height="21" width="314" x="1375" y="449" as="geometry" />
         </mxCell>
-        <mxCell id="qomLu63G6siAQ9P1QpD9-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="load_model" vertex="1">
-          <mxGeometry height="20" width="111" x="1364.5" y="494" as="geometry" />
+        <mxCell id="qomLu63G6siAQ9P1QpD9-30" edge="1" parent="1" source="qomLu63G6siAQ9P1QpD9-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qomLu63G6siAQ9P1QpD9-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qomLu63G6siAQ9P1QpD9-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="_get_all_weights&lt;div&gt;从磁盘加载数据到cpu&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="118" x="1585" y="494" as="geometry" />
+        <mxCell id="qomLu63G6siAQ9P1QpD9-31" connectable="0" parent="qomLu63G6siAQ9P1QpD9-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="第一步" vertex="1">
+          <mxGeometry relative="1" x="-0.1322" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qomLu63G6siAQ9P1QpD9-32" edge="1" parent="1" source="qomLu63G6siAQ9P1QpD9-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qomLu63G6siAQ9P1QpD9-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qomLu63G6siAQ9P1QpD9-33" connectable="0" parent="qomLu63G6siAQ9P1QpD9-32" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="第二步" vertex="1">
+          <mxGeometry relative="1" x="-0.4476" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qomLu63G6siAQ9P1QpD9-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="load_model" vertex="1">
+          <mxGeometry height="20" width="111" x="1384.5" y="494" as="geometry" />
+        </mxCell>
+        <mxCell id="qomLu63G6siAQ9P1QpD9-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="_get_all_weights&lt;div&gt;&lt;font style=&quot;color: rgb(255, 125, 86);&quot;&gt;从磁盘加载数据到cpu&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="118" x="1565" y="489" as="geometry" />
         </mxCell>
         <mxCell id="qomLu63G6siAQ9P1QpD9-25" edge="1" parent="1" source="qomLu63G6siAQ9P1QpD9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qomLu63G6siAQ9P1QpD9-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qomLu63G6siAQ9P1QpD9-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="load_weights_and_postprocess" vertex="1">
-          <mxGeometry height="31" width="181" x="1367" y="567" as="geometry" />
+          <mxGeometry height="31" width="181" x="1349.5" y="549" as="geometry" />
         </mxCell>
         <mxCell id="qomLu63G6siAQ9P1QpD9-26" edge="1" parent="1" source="qomLu63G6siAQ9P1QpD9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qomLu63G6siAQ9P1QpD9-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qomLu63G6siAQ9P1QpD9-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="load_weights&lt;div&gt;把模型数据&lt;font style=&quot;color: rgb(255, 125, 86);&quot;&gt;加载到gpu&lt;/font&gt;（全部类型的权重都加载好）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="44" width="152" x="1575" y="560.5" as="geometry" />
+          <mxGeometry height="44" width="152" x="1565" y="542.5" as="geometry" />
         </mxCell>
         <mxCell id="qomLu63G6siAQ9P1QpD9-15" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="模型权重数据分类" vertex="1">
           <mxGeometry height="120" width="186" x="1312" y="160" as="geometry" />
