@@ -531,8 +531,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qomLu63G6siAQ9P1QpD9-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;weight_loader&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre; color: rgb(204, 204, 204);&quot;&gt;&lt;font color=&quot;#dcdcaa&quot;&gt;加载权重到gpu&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="44" width="99" x="1861" y="595" as="geometry" />
+        <mxCell id="qomLu63G6siAQ9P1QpD9-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;&lt;span style=&quot;color: rgb(78, 201, 176);&quot;&gt;VocabParallelEmbedding：：&lt;/span&gt;weight_loader&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(31, 31, 31); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre; color: rgb(204, 204, 204);&quot;&gt;&lt;font color=&quot;#dcdcaa&quot;&gt;加载权重到gpu&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="41" width="296" x="1861" y="598" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
