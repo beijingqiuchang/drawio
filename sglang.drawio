@@ -603,8 +603,8 @@
         <mxCell id="qomLu63G6siAQ9P1QpD9-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;VocabParallelEmbedding：：weight_loader&lt;/div&gt;&lt;div&gt;加载权重到gpu&lt;/div&gt;" vertex="1">
           <mxGeometry height="31" width="270" x="2983.5" y="584.5" as="geometry" />
         </mxCell>
-        <mxCell id="qomLu63G6siAQ9P1QpD9-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="load_weights&lt;div&gt;把模型数据&lt;font style=&quot;color: rgb(255, 125, 86);&quot;&gt;加载到gpu&lt;/font&gt;（全部类型的权重都加载好）&lt;/div&gt;" vertex="1">
-          <mxGeometry height="44" width="152" x="2407" y="625" as="geometry" />
+        <mxCell id="qomLu63G6siAQ9P1QpD9-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="load_weights&lt;div&gt;把模型数据从磁盘到cpu，再&lt;font style=&quot;color: rgb(255, 125, 86);&quot;&gt;加载到gpu&lt;/font&gt;（全部类型的权重都加载好）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="58" width="152" x="2407" y="618" as="geometry" />
         </mxCell>
         <mxCell id="qomLu63G6siAQ9P1QpD9-35" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -612,8 +612,8 @@
             <mxPoint x="2574" y="495" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qomLu63G6siAQ9P1QpD9-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="_get_weights_iterator" vertex="1">
-          <mxGeometry height="33" width="140" x="2025" y="704" as="geometry" />
+        <mxCell id="qomLu63G6siAQ9P1QpD9-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="_get_weights_iterator&lt;div&gt;这里生成的是加载文件的对象，并不会实际把磁盘数据加载到内存&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="140" x="2025" y="704" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
