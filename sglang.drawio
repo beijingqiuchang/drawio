@@ -713,11 +713,23 @@
         <mxCell id="JD8SCEKctAlN0MZVBru5-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RadixAttention.forward&lt;div&gt;内部调用：forward_batch.attn_backend.forward会开始区分prefill/decode&lt;/div&gt;" vertex="1">
           <mxGeometry height="59" width="233.5" x="1503" y="1719.5" as="geometry" />
         </mxCell>
+        <mxCell id="JD8SCEKctAlN0MZVBru5-16" edge="1" parent="1" source="JD8SCEKctAlN0MZVBru5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JD8SCEKctAlN0MZVBru5-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JD8SCEKctAlN0MZVBru5-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="prefill" vertex="1">
           <mxGeometry height="23" width="48" x="1800" y="1719.5" as="geometry" />
         </mxCell>
+        <mxCell id="JD8SCEKctAlN0MZVBru5-14" edge="1" parent="1" source="JD8SCEKctAlN0MZVBru5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JD8SCEKctAlN0MZVBru5-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JD8SCEKctAlN0MZVBru5-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="decode" vertex="1">
           <mxGeometry height="23" width="48" x="1800" y="1757" as="geometry" />
+        </mxCell>
+        <mxCell id="JD8SCEKctAlN0MZVBru5-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="forward_decode" vertex="1">
+          <mxGeometry height="19" width="97" x="1861" y="1759.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JD8SCEKctAlN0MZVBru5-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="forward_extend" vertex="1">
+          <mxGeometry height="16" width="96" x="1861" y="1723" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
