@@ -704,8 +704,20 @@
         <mxCell id="JD8SCEKctAlN0MZVBru5-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LlamaAttention.forward" vertex="1">
           <mxGeometry height="16" width="162" x="1316" y="1741" as="geometry" />
         </mxCell>
+        <mxCell id="JD8SCEKctAlN0MZVBru5-11" edge="1" parent="1" source="JD8SCEKctAlN0MZVBru5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JD8SCEKctAlN0MZVBru5-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JD8SCEKctAlN0MZVBru5-12" edge="1" parent="1" source="JD8SCEKctAlN0MZVBru5-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JD8SCEKctAlN0MZVBru5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="JD8SCEKctAlN0MZVBru5-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RadixAttention.forward&lt;div&gt;内部调用：forward_batch.attn_backend.forward会开始区分prefill/decode&lt;/div&gt;" vertex="1">
           <mxGeometry height="59" width="233.5" x="1503" y="1719.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JD8SCEKctAlN0MZVBru5-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="prefill" vertex="1">
+          <mxGeometry height="23" width="48" x="1800" y="1719.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JD8SCEKctAlN0MZVBru5-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="decode" vertex="1">
+          <mxGeometry height="23" width="48" x="1800" y="1757" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
