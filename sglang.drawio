@@ -799,17 +799,14 @@
         <mxCell id="3H4FEEfyfihElNec5KNz-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FlashInferAttnBackend.forward_decode" vertex="1">
           <mxGeometry height="30" width="221" x="2381" y="1795" as="geometry" />
         </mxCell>
-        <mxCell id="R9RsPt3PLX90TyTNWew3-1" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="HiCacheController" vertex="1">
-          <mxGeometry height="120" width="227" x="86" y="2116" as="geometry" />
+        <mxCell id="orV-cKz6vOIsRxK5gTuT-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="确认阶段" vertex="1">
+          <mxGeometry height="33" width="365" x="-8" y="2152" as="geometry" />
         </mxCell>
-        <mxCell id="R9RsPt3PLX90TyTNWew3-2" parent="R9RsPt3PLX90TyTNWew3-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontColor=light-dark(#D4D4D4,#FFFFFF);" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px; white-space: pre;&quot;&gt;layer_done_counter&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="227" y="30" as="geometry" />
+        <mxCell id="orV-cKz6vOIsRxK5gTuT-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="传输阶段" vertex="1">
+          <mxGeometry height="33" width="327" x="459" y="2152" as="geometry" />
         </mxCell>
-        <mxCell id="R9RsPt3PLX90TyTNWew3-3" parent="R9RsPt3PLX90TyTNWew3-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Item 2" vertex="1">
-          <mxGeometry height="30" width="227" y="60" as="geometry" />
-        </mxCell>
-        <mxCell id="R9RsPt3PLX90TyTNWew3-4" parent="R9RsPt3PLX90TyTNWew3-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Item 3" vertex="1">
-          <mxGeometry height="30" width="227" y="90" as="geometry" />
+        <mxCell id="orV-cKz6vOIsRxK5gTuT-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="使用阶段" vertex="1">
+          <mxGeometry height="33" width="327" x="888" y="2152" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
